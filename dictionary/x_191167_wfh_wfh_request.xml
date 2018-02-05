@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="WFH Request" max_length="40" name="x_191167_wfh_wfh_request" type="collection">
+        <element label="Employee" max_length="32" name="employee_name" reference="sys_user" type="reference"/>
+    </element>
+</database>

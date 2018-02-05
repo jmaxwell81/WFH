@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element extends="task" label="WFH Request" max_length="40" name="x_191167_wfh_wfh_request" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="full" label="All day" max_length="40" name="all_day" type="string">
+            <choice>
+                <element label="All day" sequence="0" value="full"/>
+                <element label="Half day" sequence="1" value="half"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Am pm" max_length="5" name="am_pm" type="string"/>
+        <element choice="1" default="1" label="Days" max_length="40" name="days" type="integer">
+            <choice>
+                <element label="1" sequence="0" value="1"/>
+                <element label="2" sequence="1" value="2"/>
+                <element label="3" sequence="2" value="3"/>
+                <element label="4" sequence="3" value="4"/>
+                <element label="5" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element label="Department Head" max_length="32" name="department_head" reference="sys_user" type="reference"/>
         <element label="Employee" max_length="32" name="employee_name" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Justification" max_length="2000" name="justification" type="string"/>
+        <element label="Line Manager" max_length="32" name="line_manager" reference="sys_user" type="reference"/>
+        <element label="Requested End Date" max_length="40" name="requested_end_date" type="glide_date_time"/>
+        <element label="Requested Start Date" max_length="40" name="requested_start_date" type="glide_date_time"/>
     </element>
 </database>

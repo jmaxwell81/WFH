@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>x_191167_wfh.wfhApproved</event_name>
+        <fired_by>WFH workflow</fired_by>
+        <queue/>
+        <suffix>wfhApproved</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-07 05:21:52</sys_created_on>
+        <sys_id>8ba533fe4f809300f1448fe18110c7a8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_191167_wfh.wfhApproved</sys_name>
+        <sys_package display_value="WFH" source="x_191167_wfh">4eb0f05a4fcc1300f1448fe18110c78b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WFH">4eb0f05a4fcc1300f1448fe18110c78b</sys_scope>
+        <sys_update_name>sysevent_register_8ba533fe4f809300f1448fe18110c7a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-07 05:22:21</sys_updated_on>
+        <table>x_191167_wfh_wfh_request</table>
+    </sysevent_register>
+</record_update>
